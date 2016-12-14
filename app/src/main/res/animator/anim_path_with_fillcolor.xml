@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:duration="5000"
+        android:propertyName="trimPathStart"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType" />
+
+    <objectAnimator
+        android:duration="5000"
+        android:propertyName="fillColor"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="@android:color/holo_blue_light"
+        android:valueTo="@android:color/holo_orange_light"
+        android:valueType="colorType" />
+
+</set>
